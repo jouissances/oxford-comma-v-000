@@ -6,6 +6,6 @@ def oxford_comma(array)
   elsif array.size == 3
     second_part = array.pop()
     first_part = array.join(', ')
-    first_part.concat(', and #{second_part}')
+    first_part.concat(", and #{second_part}")
   end
 end
